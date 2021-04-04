@@ -1,0 +1,22 @@
+.mainInfo {
+    width: 50%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 35px;
+    margin-right: 25px;
+}
+
+.btn {
+    width: 200px;
+    background-color: #36B7E2;
+    height: 35px;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}

@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    text-align: center;
+}
+
+img {
+    width: 170px;
+}
+
+.topnav a {
+    display: inline-block;
+    width: 107px;
+    margin-top: 51px;
+    text-decoration: none;
+    border-bottom: 5px solid grey;
+    text-align: center;
+}
+
+.topnav a:hover {
+    border-bottom: 5px solid #36B7E2;
+    color: #36B7E2;
+}
+
+.items {
+    width: 20%;
+}
+
+.mainBlock {
+    width: 80%;
+}
+
+label {
+    position: relative;
+    flex-direction: row-reverse;
+    display: flex;
+    width: 270px;
+}
+
+label:before {
+    content: url('/src/static/Search_Icon.svg');
+    position: absolute;
+    left: 117px;
+    top: 43px;
+    bottom: 0;
+    width: 20px;
+}
+
+input {
+    width: 126px;
+    height: 35px;
+    padding-left: 35px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin-top: 35px;
+}
+
+input:focus {
+    outline: none;
+    width: 220px;
+}
+
+.content {
+    background: linear-gradient(#d9deff, #fceeff);
+    height: 80vh;
+}
+
+.footer {
+    text-align: right;
+    padding: 15px 30px;
+}
+
+.steps {
+    padding: 35px 35px 0;
+    margin-bottom: 35px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}

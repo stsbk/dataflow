@@ -1,0 +1,14 @@
+.exportInfo {
+    background-color: #fff;
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+li {
+    padding-bottom: 20px;
+}
